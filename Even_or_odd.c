@@ -4,18 +4,19 @@
 
 int main()
 {
-    int number;
+    int num;
 
     printf("Enter a number: ");
-    scanf("%d", &number);
+    scanf("%d", &num);
 
-    if (number % 2 == 0)
+    if (num % 2 == 0)
     {
-        printf("%d is Even.\n", number);
+        printf("%d is Even.\n", num);
     }
+    
     else
     {
-        printf("%d is Odd.\n", number);
+        printf("%d is Odd.\n", num);
     }
 
     return 0;

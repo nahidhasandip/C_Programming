@@ -4,28 +4,34 @@
 
 #include <stdio.h>
 
-int main() {
-int i, num, Prime = 1;
+int main() 
+{
+    int i, num, Prime = 1;
 
     printf("Enter a number: ");
     scanf("%d", &num);
 
-    if (num <= 1) {
+    if (num <= 1) 
+    {
         Prime = 0;
     }
 
-    else {
-        for (i = 2; i < num; i++) {
-            if (num % i == 0) {
+    else 
+    {
+        for (i = 2; i < num; i++) 
+        {
+            if (num % i == 0) 
+            {
                 Prime = 0;
             }
         }
     }
 
     if (Prime)
-        printf("%d is a prime number.\n", num);
+        printf("%d is a Prime number.\n", num);
+
     else
-        printf("%d is not a prime number.\n", num);
+        printf("%d is not a Prime number.\n", num);
 
     return 0;
 }

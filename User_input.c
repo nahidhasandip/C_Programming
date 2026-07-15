@@ -6,12 +6,12 @@
 
 int main()
 {
-    int number;
+    int num;
 
     printf("Enter a number: ");
-    scanf("%d", &number);
+    scanf("%d", &num);
 
-    printf("You entered: %d\n", number);
+    printf("You entered: %d\n", num);
 
     return 0;
 }

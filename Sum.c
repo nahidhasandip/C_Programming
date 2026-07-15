@@ -6,8 +6,13 @@
 int main()
 {
     int A, B, X;
+
+    printf("Enter two numbers: ");
     scanf("%d %d", &A, &B);
+
     X = A + B;
+
     printf("X = %d\n", X);
+    
     return 0;
 }

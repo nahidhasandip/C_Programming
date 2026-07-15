@@ -9,10 +9,10 @@ int main()
     int Celsius;
     float Fahrenheit;
 
-    printf("Enter a Temperature in Celsius: ");
+    printf("Enter a Temperature in celsius: ");
     scanf("%d", &Celsius);
 
-    Fahrenheit = (Celsius * 9 / 5) + 32;    // Celsius = (Fahrenheit - 32) * 9 / 5
+    Fahrenheit = (Celsius * 9.0 / 5.0) + 32;    // Celsius = (Fahrenheit - 32) * 9.0 / 5.0
 
     printf("Temperature in Fahrenheit = %.2f\n", Fahrenheit);
 

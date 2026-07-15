@@ -1,4 +1,4 @@
-// Given two integers x (base) and y (exponent), your task is to compute the value of without using any built-in power function. You must calculate it by multiplying x by itself y times.
+// Given two parameters integers x (base) and y (exponent), your task is to compute the value of without using any built-in power function. You must calculate it by multiplying x by itself y times.
 // Input: The input contains two integers x and y. x is the base number and y is the exponent (a non-negative integer).
 // Output: Print a single line in the following format: x to the power y = result
 

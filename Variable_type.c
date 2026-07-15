@@ -28,7 +28,7 @@ int main()
     scanf("%lld", &bignumber);
 
     printf("Age: %d\n", age);
-    printf("Height: %f\n", height);
+    printf("Height: %.2f\n", height);
     printf("Grade: %c\n", grade);
     printf("Pi: %.4lf\n", pi);
     printf("Big number: %lld\n", bignumber);

@@ -3,10 +3,12 @@
 // Output: Print two lines: The first line shows the number of vowels in the string, followed by the word "vowels". The second line shows the number of consonants in the string, followed by the word "consonants".
 
 #include <stdio.h>
+
 int main()
 {
     char str[100];
     int i, vowel = 0, consonant = 0; 
+
     printf("Enetr a string: ");
     gets(str);
 
@@ -16,6 +18,7 @@ int main()
         {
             vowel++;
         }
+        
         else 
         {
             consonant++;

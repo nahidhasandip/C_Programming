@@ -6,10 +6,12 @@
 
 int main()
 {
-    int n;
-    scanf("%d", &n);
+    int num;
 
-    printf("X = %d\n", n * n);    // X = sqrt (num)
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    printf("X = %d\n", num * num );    // X = sqrt (num)
 
     return 0;
 }

@@ -3,12 +3,11 @@
 // Output: Print a single line containing only the name of the employee who has the highest salary.
 
 #include <stdio.h>
-
 struct Employee
 {
     int id;
     char name[50];
-    float salary;
+    int salary;
 };
 
 int main()
@@ -18,16 +17,16 @@ int main()
 
     for (i = 0; i < 5; i++)
     {
-        printf("\nEnter Employee %d Information:\n", i + 1);
+        printf("\nEnter info for Employee %d:\n", i + 1);
 
         printf("Enter Name: ");
-        scanf("%s", emp[i].name);
+        scanf("%s", &emp[i].name);
 
         printf("Enter ID: ");
         scanf("%d", &emp[i].id);
 
         printf("Enter Salary: ");
-        scanf("%f", &emp[i].salary);
+        scanf("%d", &emp[i].salary);
     }
 
     for (i = 1; i < 5; i++)

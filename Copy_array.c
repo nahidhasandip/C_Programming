@@ -10,8 +10,8 @@ int main()
     scanf("%d", &n);
 
     int arr1[n], arr2[n];
+    
     printf("Enter the elements: ");
-
     for (i = 0; i < n; i++)
     {
         scanf("%d", &arr1[i]);
@@ -23,7 +23,6 @@ int main()
     }
 
     printf("Elements in the copied array are: ");
-    
     for (i = 0; i < n; i++)
     {
         printf("%d ", arr2[i]);

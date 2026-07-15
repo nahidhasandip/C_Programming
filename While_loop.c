@@ -6,17 +6,18 @@
 
 int main()
 {
-    int i, N;
+    int i, num;
 
     printf("Enter a number: ");
-    scanf("%d", &N);
+    scanf("%d", &num);
 
-    i = N;
+    i = num;
+
     while (i >= 1)
     {
         printf("%d\n", i);
         i--;
     }
-
+    
     return 0;
 }

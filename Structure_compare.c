@@ -3,26 +3,29 @@
 // Output: The program must print two lines. In the first line, print who has the higher CGPA, or if they are equal. In the second line, print who has the higher Salary, or if they are equal.
 
 #include <stdio.h>
-struct Student {
-    char name[50];
+struct Student 
+{
     float cgpa;
-    float salary;
+    int salary;
 };
 
-int main() {
+int main() 
+{
     struct Student s1, s2;
 
     printf("Enter info for Student 1:\n");
     printf("Enter CGPA for Alice: ");
     scanf("%f", &s1.cgpa);
     printf("Enter Salary for Alice: ");
-    scanf("%f", &s1.salary);
+    scanf("%d", &s1.salary);
 
-    printf("\nEnter info for Student 2:\n");
+    printf("\n");
+
+    printf("Enter info for Student 2:\n");
     printf("Enter CGPA for Bob: ");
     scanf("%f", &s2.cgpa);
     printf("Enter Salary for Bob: ");
-    scanf("%f", &s2.salary);
+    scanf("%d", &s2.salary);
 
     printf("\n---- Comparison Result ----\n");
 

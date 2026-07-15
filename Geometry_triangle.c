@@ -7,16 +7,18 @@ int main()
 {
     double a, b, c;
 
-    printf("Enter three floating numbers: ");
+    printf("Enter three values (a, b, c): ");
     scanf("%lf %lf %lf", &a, &b, &c);
 
     if (a < b + c && b < a + c && c < a + b)
     {
-        printf("Perimetro = %.1lf\n", a + b + c);
+        printf("Perimeter = %.1lf\n", a + b + c);
     }
+
     else
     {
-        printf("Area = %.1lf\n", c * (a + b) / 2);
+        printf("Trapezoid Area = %.1lf\n", 0.5 * (a + b) * c);
     }
+    
     return 0;
 }

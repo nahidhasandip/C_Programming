@@ -6,22 +6,24 @@
 
 int main()
 {
-    int number;
+    int num;
 
     printf("Enter a number: ");
-    scanf("%d", &number);
+    scanf("%d", &num);
 
-    if (number > 0)
+    if (num > 0)
     {
-        printf("%d is Positive.\n", number);
+        printf("%d is Positive.\n", num);
     }
-    else if (number < 0)
+
+    else if (num < 0)
     {
-        printf("%d is Negative.\n", number);
+        printf("%d is Negative.\n", num);
     }
+
     else
     {
-        printf("%d is Zero.\n", number);
+        printf("%d is Zero.\n", num);
     }
 
     return 0;

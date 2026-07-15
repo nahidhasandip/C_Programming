@@ -5,16 +5,17 @@
 #include <stdio.h>
 int main()
 {
-    int N, i, factorial = 1;
+    int i, num, Factorial = 1;
     
     printf("Enter a number: ");
-    scanf("%d", &N);
+    scanf("%d", &num);
 
-    for (i = N; i >= 1; i--)
+    for (i = num; i >= 1; i--)
     {
-        factorial = factorial * i;
+        Factorial = Factorial * i;
     }
-    printf("%d\n", factorial);
+
+    printf("Factorial = %d\n", Factorial);
 
     return 0;
 }

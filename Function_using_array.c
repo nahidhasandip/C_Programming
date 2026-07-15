@@ -1,4 +1,4 @@
-// You are given 5 integers stored in an array. Your task is to print all the array elements in the same order, but you must use a function to access the elements.
+// You are given 5 integers stored in an array. Your task is to print all the array elements in the same order but you must use a function to access the elements.
 // Input: The input consists of 5 integers separated by a space.
 // Output: Print the 5 integers in the same order, separated by a space.
 

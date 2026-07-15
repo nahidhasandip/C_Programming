@@ -6,18 +6,18 @@
 
 int main()
 {
-    int n, i;
+    int i, num;
     long long sum = 0;
 
-    printf("Enter the value of N: ");
-    scanf("%d", &n);
+    printf("Enter the numbers: ");
+    scanf("%d", &num);
 
-    for (i = 1; i <= n; i++)
+    for (i = 1; i <= num; i++)
     {
         sum = sum + i;
     }
 
-    printf("Sum from 1 to %d is: %lld\n", n, sum);
+    printf("Sum from 1 to %d is: %lld\n", num, sum);
 
     return 0;
 }

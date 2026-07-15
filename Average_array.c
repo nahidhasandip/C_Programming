@@ -5,28 +5,27 @@
 #include <stdio.h>
 int main()
 {
-    int i, n, sum = 0;
-    float average;
+    int i, num, sum = 0;
+    float Average;
+    printf("Enter the size of elements: ");
+    scanf("%d", &num);
 
-    printf("Enter the number of elements: ");
-    scanf("%d", &n);
-
-    int arr[n];
-    printf("Enter the elements: ");
-
-    for (i = 0; i < n; i++)
+    int arr[num];
+    
+    printf("Enter an array: ");
+    for (i = 0; i < num; i++)
     {
         scanf("%d", &arr[i]);
     }
 
-    for (i = 0; i < n; i++)
+    for (i = 0; i < num; i++)
     {
          sum = sum + arr[i];
     }
 
-    average = sum / n; 
+    Average = (float)sum / num; 
 
-    printf("Average of all elements: %.2f\n", average);
+    printf("Average: %.2f\n", Average);
 
     return 0;
 }

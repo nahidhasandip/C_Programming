@@ -1,4 +1,4 @@
-// Make a program that reads 3 integer values and present the greatest one followed by the message "eh o maior".
+// Make a program that reads three integer values and present the greatest one followed by the message "eh o maior".
 // Input: The input file contains 3 integer values.
 // Output: Print the greatest of these three values followed by a space and the message “eh o maior”.
 
@@ -7,8 +7,12 @@
 int main()
 {
     int a, b, c, maior;
+
+    printf("Enter three values: ");
     scanf("%d %d %d", &a, &b, &c);
+
     maior = a;
+
     if (a < b || a < c)
     {
         if (b > c)
@@ -20,6 +24,8 @@ int main()
             maior = c;
         }
     }
+
     printf("%d eh o maior\n", maior);
+
     return 0;
 }

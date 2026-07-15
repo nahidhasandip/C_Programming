@@ -3,14 +3,16 @@
 // Output: Print the student all information in the following format.
 
 #include <stdio.h>
-struct Student {
+struct Student 
+{
     char name[50];
     int roll;
     float cgpa;
     int salary;
 };
 
-int main() {
+int main() 
+{
     struct Student s;
 
     printf("Enter a name: ");
@@ -23,8 +25,10 @@ int main() {
     scanf("%f", &s.cgpa);
 
     printf("Enter a salary: ");
-    scanf("%d", &s.salary);
+    scanf("%d", &s.salary); 
 
+    printf("\n");
+    
     printf("Name: %s\n", s.name);
     printf("Roll: %d\n", s.roll);
     printf("CGPA: %.2f\n", s.cgpa);

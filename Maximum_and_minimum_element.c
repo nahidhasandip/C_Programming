@@ -5,15 +5,16 @@
 #include<stdio.h>
 int main()
 {
-    int a;
+    int i, a;
     printf("Enter the Size of elements: ");
     scanf("%d",&a);
 
     int arr[a];
+
     printf("Enter an array: ");
-    for(int i=0; i<a; i++)
+    for(int i = 0; i < a; i++)
     {
-        scanf("%d",&arr[i]);
+        scanf("%d", &arr[i]);
     }
 
     int max = arr[0];
@@ -34,8 +35,8 @@ int main()
         }
     }
 
-    printf("Maximum Element: %d\n",max);
-    printf("Minimum Element: %d\n",min);
+    printf("Maximum Element: %d\n", max);
+    printf("Minimum Element: %d\n", min);
 
     return 0;
 }

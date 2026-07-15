@@ -5,25 +5,28 @@
 #include<stdio.h>
 int main()
 {
-    int a;
-    scanf("%d",&a);
+    int i, a;
+    printf("Enter the number of elements: ");
+    scanf("%d", &a);
 
     int arr[a];
+    
+    printf("Enter the elements: ");
     for(int i=0; i<a; i++)
     {
         scanf("%d",&arr[i]);
     }
 
     int x;
-    scanf("%d",&x);
+    printf("Enter a number: ");
+    scanf("%d", &x);
 
     int b = 0;
     for(int i=0; i<a; i++)
     {
         if(arr[i] == x)
         {
-            b = 1;
-            break;           
+            b = 1;           
         }
     }
     

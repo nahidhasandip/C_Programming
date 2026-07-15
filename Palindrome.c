@@ -3,10 +3,12 @@
 // Output: If the string is a palindrome, print: Palindrome, Otherwise print: Not Palindrome.
 
 #include <stdio.h>
+
 int main()
 {
     char str[100];
     int i, j = 0, Palindrome = 1;
+
     printf("Enetr a string: ");
     gets(str);
 
@@ -21,7 +23,6 @@ int main()
         if (str[i] != str[j])
         {
             Palindrome = 0;
-            break;
         }
     }
 
@@ -29,6 +30,7 @@ int main()
     {
         printf("The string is a Palindrome\n");
     }
+    
     else
     {
         printf("The string is not a Palindrome\n");

@@ -12,7 +12,7 @@ int main()
 
     ptr = arr;
 
-    printf("Array elements using pointer:\n");
+    printf("Pointer using Array:\n");
 
     for (int i = 0; i < 5; i++)
     {

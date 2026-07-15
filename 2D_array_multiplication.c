@@ -9,6 +9,8 @@ int main()
     int i, j;
     int matrix[3][3];
     int Multiplication = 1;
+    
+    printf("Enter the matrix of elements:\n");
 
     for (int i = 0; i < 3; i++)
     {
@@ -19,7 +21,7 @@ int main()
         }
     }
 
-    printf("%d\n", Multiplication);
+    printf("Multiplication = %d\n", Multiplication);
 
     return 0;
 }

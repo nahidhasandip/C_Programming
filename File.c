@@ -10,7 +10,8 @@ int main() {
     char text[100];
 
     fp = fopen("output.txt", "w");  
-    if (fp == NULL) {
+    if (fp == NULL) 
+    {
         printf("File could not be opened!\n");
         return 1;
     }
@@ -20,7 +21,8 @@ int main() {
     fclose(fp);
 
     fp = fopen("output.txt", "r");  
-    if (fp == NULL) {
+    if (fp == NULL) 
+    {
         printf("File could not be opened!\n");
         return 1;
     }

@@ -6,12 +6,12 @@
 
 int main()
 {
-    int N, i, j;
+    int i, j, num;
 
     printf("Enter a number: ");
-    scanf("%d", &N);
+    scanf("%d", &num);
 
-    for (i = 1; i <= N; i++)
+    for (i = 1; i <= num; i++)
     {
         for (j = 1; j <= i; j++)
         {

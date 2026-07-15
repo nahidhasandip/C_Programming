@@ -11,7 +11,7 @@ int main()
 
     ptr = str;
 
-    printf("String using pointer:\n");
+    printf("Pointer using String:\n");
 
     while (*ptr != '\0')
     {

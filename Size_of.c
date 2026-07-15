@@ -11,10 +11,10 @@ int main()
     float f;
     double d;
 
-    printf("Size of int: %d\n", sizeof(i));
-    printf("Size of char: %d\n", sizeof(c));
-    printf("Size of float: %d\n", sizeof(f));
-    printf("Size of double: %d\n", sizeof(d));
+    printf("Size of int: %d bytes\n", sizeof(i));
+    printf("Size of char: %d bytes\n", sizeof(c));
+    printf("Size of float: %d bytes\n", sizeof(f));
+    printf("Size of double: %d bytes\n", sizeof(d));
 
     return 0;
 }
